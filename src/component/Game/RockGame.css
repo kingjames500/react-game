@@ -34,13 +34,13 @@ body {
 .myname,
 .scoreboard {
   text-transform: capitalize;
-  color:yellow;
+  color:rgba(243, 243, 7, 0.893);
   font-size: 0.91rem;
 }
 
 .computer-selection,
 .player-input {
-  border: 2px dotted black;
+  border: 4px dotted black;
   --size: 7rem;
   width: var(--size);
   height: var(--size);
