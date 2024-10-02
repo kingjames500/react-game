@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./RockGame.css";
 
 function RockGame() {
+    // state to hold player and computer scores
     const [playerScore, setPlayerScore] = useState(0);
     const [computerScore, setComputerScore] = useState(0);
     const [gameResult, setGameResult] = useState("currently Draw");
@@ -39,7 +40,7 @@ function RockGame() {
             <div className="container">
                 <div className="game-card">
                     <div className="card-details">
-                        <h3 className="myname">rock scissors</h3>
+                        <h3 className="myname">react game</h3>
                         <h4 className="scoreboard">
                             computer {computerScore} {playerScore} player
                         </h4>
