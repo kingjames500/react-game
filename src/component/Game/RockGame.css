@@ -44,7 +44,7 @@ body {
   --size: 7rem;
   width: var(--size);
   height: var(--size);
-  margin: 0.6rem auto;
+  margin: 0.85rem auto;
   font-size: 5.4rem;
 }
 
