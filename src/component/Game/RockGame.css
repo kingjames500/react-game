@@ -75,7 +75,8 @@ body {
   font-size: 3rem;
 }
 .user-input-text {
-  font-size: 1.2rem;
-  font-weight: bolder;
+  font-size: 0.8rem;
+  /* font-weight: bolder; */
+  font-family: "Press Start 2P", sans-serif;
   text-transform: capitalize;
 }
